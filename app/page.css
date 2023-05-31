@@ -1,0 +1,66 @@
+.description {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-size: clamp(1.8em,calc(1em + 2.4vw),3em);
+    line-height: 1.2;
+}
+p {
+    margin-top: 0.4em;
+    font-size: clamp(1.125em,2vw,1.6em);
+    line-height: 1.5;
+}
+.description2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1em;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+.description2 div {
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+}
+.description2 Image {
+    max-width: 280px;
+    max-height: 280px;
+}
+.description2 p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+.mscnc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+@media (max-width: 1100px) {
+    .description2 {
+      flex-direction: column;
+    }
+    .mscnc {
+        flex-direction: column;
+    }
+    .mscncdesktop {
+        display:none;
+    }
+  }
