@@ -17,7 +17,7 @@ export default function Home() {
       <div className='description'>
         <h1 className='descriptionheading'>Computer Science student at <br/>
         National University of Singapore</h1>
-        <p className = 'descriptionparagraph'>Hi. I'm Yuanxin, a Year 3 computer science student with a passion in <br/>
+        <p className = 'descriptionparagraph'>Hi. I&apos;m Yuanxin, a Year 3 computer science student with a passion in <br/>
         Front-End Development</p>
       </div>
       <div className ='description2'>
@@ -35,7 +35,7 @@ export default function Home() {
         className='wordpress' width = {280} height = {280}/>
         <h3>WordPress websites</h3>
         <p>Manage your website using the <br/>
-        web's most popular content <br/>
+        web&apos;s most popular content <br/>
         management system.</p>
         </div>
         <div>
