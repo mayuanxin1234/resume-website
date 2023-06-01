@@ -28,7 +28,7 @@ export default function About() {
         <Image src = {profilephoto} alt = "profilephoto" width ={100} height ={125}/>
         <p>I am Yuanxin and I enjoy creating solutions to solve everyday issues. My interest in Computer Science began back in 2017, when I explored many online courses and fell in love with programming.</p>
         </div>   
-        <p>Today, I'm a Year 3 Computer Science student in the National University of Singapore, aiming to focus on Software Engineering.
+        <p>Today, I am a Year 3 Computer Science student in the National University of Singapore, aiming to focus on Software Engineering.
         I work to make a better web; one that is fast, easy to use, beautiful, accessible to all, and frustration-free.
         </p>
         <div>
@@ -52,7 +52,7 @@ export default function About() {
         <p>M S CNC is a precision engineering company with a focus on Computer Numeric Control (CNC) machinery.</p>
         <p>Role: <b>Software Developer </b>(Apr 2022 - Present)</p>
         <ul>
-          <li>Re-built the company' website using React, JavaScript, CSS & HTML. The previous website was built with a website builder and did not meet their business needs</li>
+          <li>Re-built the company website using React, JavaScript, CSS & HTML. The previous website was built with a website builder and did not meet their business needs</li>
            <li>Created Java application to improve a daily process that involved manual, and error-prone copying and pasting of CNC machine code</li>
         </ul>
         <p>Role: <b>Assistant Accountant </b> (Feb 2021 - Aug 2021)</p>
