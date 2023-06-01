@@ -1,0 +1,94 @@
+.mainpage {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: fit-content;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+h1 {
+    padding: 0;
+    margin: 0 0 0.6em;
+    color: inherit;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-size: clamp(1.8em,calc(1em + 2.4vw),3em);
+    line-height: 1.2;
+}
+p {
+    margin-top: 0.4em;
+    font-size: clamp(1.125em,2vw,1.6em);
+    line-height: 1.5;
+}
+.leftpage {
+    padding-top: 15%;
+}
+.descriptiontext {
+    font-weight: 300;
+}
+.mscncimage {
+    background-color: rgb(240, 240, 240);
+    width: fit-content;
+    padding: 20px;
+}
+.responsibilities {
+    background-color:rgb(240, 240, 240);
+    padding: 10px;
+    width: fit-content;
+
+}
+h2 {
+    padding: 0;
+    margin: 0 0 0.6em;
+    color: inherit;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+    line-height: 1.2;
+    font-family: "Lato",sans-serif;
+}
+@media (max-width: 1150px) {
+    .mainpage {
+        flex-direction: column-reverse;
+    }
+    .mscncdesktop {
+        display: none;
+    }
+
+}

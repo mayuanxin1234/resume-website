@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import { motion } from 'framer-motion';
 import './page.css'
 import frontend from '../public/frontenddevelopment.jpg'
@@ -18,7 +19,7 @@ export default function Home() {
         <h1 className='descriptionheading'>Computer Science student at <br/>
         National University of Singapore</h1>
         <p className = 'descriptionparagraph'>Hi. I&apos;m Yuanxin, a Year 3 computer science student with a passion in <br/>
-        Front-End Development</p>
+        Front-End Development.</p>
       </div>
       <div className ='description2'>
         <div>
@@ -76,18 +77,19 @@ export default function Home() {
           <div>
           <a href = '/portfolio/mscnc'>
             <Image src = {mscncdesktop} alt = 'mscncdesktop'
-            width = {900} height = {450} className='mscncdesktop'/>
+            width = {800} height = {450} className='mscncdesktop'/>
             </a>
           </div>
           <div>
           <a href = '/portfolio/mscnc'>
           <Image src = {mscncmobile} alt = 'mscncmobile'
-            width = {250} height = {450} />
+            width = {250} height = {450} className='mscncmobile' />
             </a>
           </div>
           </div>
         </div>
-        
+        <Footer/>
     </div>
+    
   )
 }

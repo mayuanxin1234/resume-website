@@ -13,28 +13,6 @@ p {
     font-size: clamp(1.125em,2vw,1.6em);
     line-height: 1.5;
 }
-.description2 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 1em;
-    gap: 20px;
-    justify-content: center;
-    flex-direction: row;
-}
-.description2 div {
-    background-color: rgb(240, 240, 240);
-    padding: 20px;
-}
-.description2 Image {
-    max-width: 280px;
-    max-height: 280px;
-}
-.description2 p {
-    margin: 0;
-    line-height: 1.5;
-    font-size: 1em;
-}
 
 .mscnc {
     display: flex;
@@ -44,6 +22,9 @@ p {
     justify-content: center;
     flex-direction: row;
     margin: 10px;
+}
+.portfoliodescription {
+    text-align: center;
 }
 a {
     color: black;

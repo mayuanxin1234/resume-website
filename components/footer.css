@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+  }
+.footer {
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    border-top: 0.8em solid;
+    border-top-color: #008ccf;
+}
+.footerleft {
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.profiledescription {
+    color: #d8d8d8;
+    font-size: large;
+}
+.interndescription {
+    color: #d8d8d8;
+    padding-left: 100px;
+    font-size: large;
+}
+.hirenow {
+    color: white;
+    padding-left: 100px;
+    font-size: large;
+    
+}
+.hirenowa {
+    padding: 0;
+    text-decoration: underline;
+    text-decoration-color: #861f9e;
+}
+.footersocials h4 {
+    color: white;
+    line-height: 0;
+
+}
+.footersocials a {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    text-decoration: underline;
+    text-decoration-color: #008ccf;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+.footersocials p {
+    color: #d8d8d8;
+    font-size: medium;
+    margin-top: 0;
+    
+}
+.sitemap a {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    text-decoration: underline;
+    text-decoration-color: #861f9e;
+    padding-top: 50px;
+    padding-left: 0;
+    padding-bottom: 0;
+    line-height: 0;
+}
+.sitemap p {
+    color: #d8d8d8;
+    font-size: medium;
+    margin-top: 0;
+}
+.sitemap h4 {
+    color: white;
+}
+@media (max-width: 1100px) {
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 100px;
+    }
+    .footerleft {
+        padding: 10px;
+    }
+    .footersocials {
+        padding: 10px;
+    }
+    .sitemap {
+        display: none;
+    }
+}
