@@ -67,7 +67,7 @@ export default function Footer() {
                 transition: { duration: 1 },
               }}
             >
-            <a href = '/getintouch' className='hirenowa'>
+            <a href = '/resume-website/getintouch' className='hirenowa'>
                 <p className='hirenow'>AVAILABLE {month} {year}. HIRE NOW {'>'}</p>
             </a>
             </motion.div>
@@ -85,16 +85,16 @@ export default function Footer() {
                 <p>Let us connect on linkedin!</p>
             </div>
             <div className='sitemap'>
-            <a href = '/portfolio' >
+            <a href = '/resume-website/portfolio' >
                 <h4 className='githubtitle'>PORTFOLIO</h4>
                 </a>
                 <p>View my previous works.</p>
-            <a href = '/about' >
+            <a href = '/resume-website/about' >
                 <h4 className='githubtitle'>ABOUT</h4>
                 </a>
                 <p>Learn more about my skills <br/>
                 and workflow.</p>    
-                <a href = '/getintouch' >
+                <a href = '/resume-website/getintouch' >
                 <h4 className='githubtitle'>GET IN TOUCH</h4>
                 </a>
                 <p>Send a message to me.</p>

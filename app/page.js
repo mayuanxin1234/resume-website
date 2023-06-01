@@ -59,7 +59,7 @@ export default function Home() {
                 transition: { duration: 1 },
               }}
             >
-          <a href = '/portfolio/mscnc'>
+          <a href = '/resume-website/portfolio/mscnc'>
           <Image src = {mscnc} alt = 'mscnclogo'
           width ={200} height = {200} />
           
@@ -75,13 +75,13 @@ export default function Home() {
           </p>
           </div>
           <div>
-          <a href = '/portfolio/mscnc'>
+          <a href = '/resume-website/portfolio/mscnc'>
             <Image src = {mscncdesktop} alt = 'mscncdesktop'
             width = {800} height = {450} className='mscncdesktop'/>
             </a>
           </div>
           <div>
-          <a href = '/portfolio/mscnc'>
+          <a href = '/resume-website/portfolio/mscnc'>
           <Image src = {mscncmobile} alt = 'mscncmobile'
             width = {250} height = {450} className='mscncmobile' />
             </a>
