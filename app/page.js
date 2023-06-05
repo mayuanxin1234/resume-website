@@ -19,7 +19,7 @@ export default function Home() {
         <h1 className='descriptionheading'>Computer Science student at <br/>
         National University of Singapore</h1>
         <p className = 'descriptionparagraph'>Hi. I&apos;m Yuanxin, a Year 3 computer science student with a passion in <br/>
-        Front-End Development.</p>
+        Front-End Development and Artifical Intelligence.</p>
       </div>
       <div className ='description2'>
         <div>

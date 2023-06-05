@@ -1,7 +1,10 @@
 .header {
-    overflow: hidden;
     padding: 20px 10px;
     position: sticky;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background-color: white;
   }
   
   /* Style the header links */
