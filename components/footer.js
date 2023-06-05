@@ -71,6 +71,9 @@ export default function Footer() {
                 <p className='hirenow'>AVAILABLE {month} {year}. HIRE NOW {'>'}</p>
             </a>
             </motion.div>
+            <a href = "https://drive.google.com/uc?export=download&id=1Lr8LW0R0hCYxSHGkCWZfDycvKArbJJk7">
+                    <button class="button" ><span>Download Resume </span></button>
+                </a>
             </div>
             <div className='footersocials'>
                 <a href = 'https://github.com/mayuanxin1234' target="_blank" >
