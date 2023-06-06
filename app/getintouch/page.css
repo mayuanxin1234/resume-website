@@ -22,7 +22,7 @@ h1 {
     font-size: large;
     line-height: 1.5;
 }
-.button {
+.button-getintouch {
     display: inline-block;
     border-radius: 4px;
     background-color: dodgerblue;
@@ -35,16 +35,17 @@ h1 {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    margin-left: 0px;
   }
   
-.button span {
+.button-getintouch span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
   
-.button span:after {
+.button-getintouch span:after {
     content: '\02193';
     position: absolute;
     opacity: 0;
@@ -53,11 +54,17 @@ h1 {
     transition: 0.5s;
 }
   
-.button:hover span {
+.button-getintouch:hover span {
     padding-right: 25px;
 }
   
-.button:hover span:after {
+.button-getintouch:hover span:after {
     opacity: 1;
     right: 0;
+}
+@media (max-width: 1150px) {
+    .main {
+        padding-left: 10px;
+    }
+
 }

@@ -15,7 +15,7 @@ export default function Getintouch() {
                 <p>Name: Ma Yuanxin</p>
                 <p>Email: <a href = 'mailto:mayuanxin@u.nus.edu'>mayuanxin@u.nus.edu</a></p>
                 <a href = "https://drive.google.com/uc?export=download&id=1Lr8LW0R0hCYxSHGkCWZfDycvKArbJJk7">
-                    <button class="button" ><span>Download Resume </span></button>
+                    <button class="button-getintouch" ><span>Download Resume </span></button>
                 </a>
             </div>
             </div>
