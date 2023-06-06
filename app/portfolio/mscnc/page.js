@@ -13,7 +13,7 @@ export default function Mscnc() {
            <div className='mainpage'>
             <div className='leftpage'>
                 <a href = "https://mscnc.org/">
-           <button class="button" ><span>View Website </span></button>
+           <button class="button-viewwebsite" ><span>View Website </span></button>
            </a>
            <div className='responsibilities'>
             <h2>RESPONSIBILITIES</h2>
