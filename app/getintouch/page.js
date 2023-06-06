@@ -16,32 +16,37 @@ export default function Getintouch() {
                 to be a part of and I will get back to you as soon as possible.</p>
                 
                 <div className='contact-form'>
-                    <form class="was-validated" method = 'post' action = 'https://forms.un-static.com/forms/28ed9a91c87599f87a246e0a243b0affa29cae72'>
+                    
+                    <form className="was-validated" method = "post" action = "https://forms.un-static.com/forms/d5776aa03c5887fba5053cb07ca2507fa2873cce">
                     <div class="form-group">
                         <label for="Name">Your Name</label>
-                        
-                        <input type="text" class="form-control" id="Name" placeholder="Enter name" required/>
+                        <input name = "Name" type="text" class="form-control" id="Name" placeholder="Enter name" required/>
                         <small id="emailHelp" class="form-text text-muted"> Required</small>
                     </div>
                     <div class="form-group">
                         <label for="Email1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required/>
+                        <input name = "Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required/>
                         <small id="emailHelp" class="form-text text-muted"> Required</small>
                     </div>
                     <div class="form-group">
+                        <label for="ContactNumber">Contact Number</label>
+                        <input name = "Number" type="number" class="form-control" id="ContactNumber" aria-describedby="emailHelp" placeholder="Your Number"/>
+                    </div>
+                    <div class="form-group">
                         <label for="Company-name">Company Name</label>
-                        <input type="text" class="form-control" id="Company-name" placeholder="Company Name" required/>
+                        <input name = "Company name" type="text" class="form-control" id="Company-name" placeholder="Company Name" required/>
                         <small id="emailHelp" class="form-text text-muted"> Required</small>
                     </div>
                     <div class="form-group">
                         <label for="Website">Your website</label>
-                        <input type="text" class="form-control" id="Website" placeholder="Website"/>
+                        <input name = "Website" type="text" class="form-control" id="Website" placeholder="Website"/>
                     </div>
                     <div class="form-group">
-                        <label for="Message">General Message</label>
-                        <textarea class="form-control" id="Message" rows="3"></textarea>
+                        <label  for="Message">General Message</label>
+                        <textarea  name = "Message" class="form-control" id="Message" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        
                     </form>
                     </div>
                 </div>
