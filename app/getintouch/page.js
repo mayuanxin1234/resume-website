@@ -20,7 +20,7 @@ export default function Getintouch() {
                     <div class="form-group">
                         <label for="Name">Your Name</label>
                         
-                        <input type="email" class="form-control" id="Name" placeholder="Enter name" required/>
+                        <input type="text" class="form-control" id="Name" placeholder="Enter name" required/>
                         <small id="emailHelp" class="form-text text-muted"> Required</small>
                     </div>
                     <div class="form-group">
@@ -30,12 +30,12 @@ export default function Getintouch() {
                     </div>
                     <div class="form-group">
                         <label for="Company-name">Company Name</label>
-                        <input type="password" class="form-control" id="Company-name" placeholder="Company Name" required/>
+                        <input type="text" class="form-control" id="Company-name" placeholder="Company Name" required/>
                         <small id="emailHelp" class="form-text text-muted"> Required</small>
                     </div>
                     <div class="form-group">
                         <label for="Website">Your website</label>
-                        <input type="password" class="form-control" id="Website" placeholder="Website"/>
+                        <input type="text" class="form-control" id="Website" placeholder="Website"/>
                     </div>
                     <div class="form-group">
                         <label for="Message">General Message</label>
