@@ -5,6 +5,7 @@
     bottom: 0;
     overflow-y: auto;
     background-color: white;
+    z-index: 3;
   }
   
   /* Style the header links */
@@ -47,7 +48,7 @@
       display: block;
       text-align: left;
     }
-    .header-right {
-      float: none;
+    .header-items {
     }
+
   }
